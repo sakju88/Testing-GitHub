@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Some of these styles modified from styles found at: http://flexbox.io */
+
+/* Some default styles to make each box visible */
+.box {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+/* Colours for each box */
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+
+
+/* We start writing out flexbox here. The above is just page setup */
+.container {
+  display:flex;
+  border:10px solid goldenrod;
+}
+
+.box1 {
+	flex: 10 10 300px;
+}
+
+.box2 {
+	flex: 1 1 300px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
